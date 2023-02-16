@@ -1,0 +1,259 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   font-family:  Calibri;
+}
+ #first{
+    background: url(images/billboard.jpg);
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    opacity: 0.8;
+   }
+   .logo{
+    width: 70px;
+  }
+  .head ul{
+    display: flex;
+    list-style: none;
+   margin: auto 0px;
+}
+.head ul li{
+    margin: 0px 20px;
+}
+.head ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    background-color:#fff;
+    opacity: 0.8;
+    position: relative;
+    top: 572px;
+    height:60px;
+}
+.foot h3{
+ font-size: 20px;
+ margin:auto 0px auto 40px;
+ font-weight: 100;
+ word-spacing: 2px;
+ padding: 15px 0px;
+}
+button{
+    width: 300px;
+    height: 50px;
+    margin: auto 40px auto 0px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgb(86, 206, 246);
+    padding: auto auto;
+    border: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+   #second{
+    width: 850px;
+    height: 470px;
+    background: #f4f2f2;
+    margin: 0px auto;
+    
+   }
+    .gridcontainer{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 10px;
+    }
+    .griditems{
+        margin: 45px auto;
+        text-align: center;
+        
+    }
+    #second h2{
+        
+        font-size: 32px;
+        font-weight: 500;
+        text-align: center;
+        padding: 60px 0px 0px 0px;
+        color: rgb(100, 99, 99);
+    }
+    #second h4{
+        margin: 15px auto;
+        font-size: 20px;
+        color: rgb(100, 99, 99);
+    }
+    .griditems p{
+        color: rgb(100, 99, 99);
+        font-size: 15px;
+    }
+    #second .line{
+        position: relative;
+        top: 37px;
+        left: 138px;
+        width: 570px;
+        height: 90px;
+    }
+    .flexcontainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 15px;
+        
+    }
+   
+    .flexitems{
+        height: 400px;
+        display: flex;
+    }
+    #fourth{
+        width: 850px;
+        height: 470px;
+        background: #f4f2f2;
+        margin: 0px auto;
+    }
+    .gridcontainer1{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 10px;
+    }
+    .griditems1{
+        margin: 45px auto;
+        text-align: center;
+        padding: 10px;
+        
+    }
+    #fourth h2{
+        
+        font-size: 32px;
+        font-weight: 800;
+        text-align: center;
+        padding: 60px 0px 0px 0px;
+        color: rgb(100, 99, 99);
+
+    }
+    #fourth h4{
+        margin: 15px auto;
+        font-size: 20px;
+        color: rgb(100, 99, 99);
+        text-transform: capitalize;
+        letter-spacing: 0.8px;
+        font-weight: 800;
+    }
+    .griditems1 p{
+        color: rgb(100, 99, 99);
+        font-size: 15px;
+    }
+   span{
+    color: rgb(164, 157, 157);
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 3px;
+    letter-spacing: 0.9px;
+
+   }
+   .gridlogo1{
+    border-radius: 50px;
+   }
+   .tagline{
+    background: #f4f2f2;
+    height:60px;
+   
+   }
+   .brand{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    margin: auto 50px ;
+     position: relative;
+     left: 40px;
+}
+#sixth{
+    background: #323131;
+    width: 100%;
+    height: 500px;
+}
+.topbar{
+    width: 850px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #424141;
+    margin: 0px auto;
+}
+.topbar h3{
+    color: #fff;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.box{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 850px;
+    margin: 70px auto;
+
+    
+}
+.boxitems{
+    color: #fff;
+    margin:0px 20px;
+    width: 150px;
+    height: 150px;
+    text-align: left;
+    
+}
+.boxitems h3{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.boxitems p{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+}
+.boxitems h4{
+    font-size: 18px;
+    font-weight: 900;
+    margin: 10px 0px;
+}
+.sociallogo{
+    width: 90px;
+    margin-top: 10px;
+}
+.boxitems ul{ 
+    list-style-type: none;
+}
+.boxitems ul li{
+    line-height: 35px;
+}
+.boxitems ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+#sixth footer{
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    margin-top: 140px;
+    
+}
+
