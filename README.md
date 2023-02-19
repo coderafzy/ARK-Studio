@@ -1,2 +1,2 @@
-# ARK-Studio
-webpage using html and css
+# ARK-studio
+not responsive yet
